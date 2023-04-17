@@ -1,0 +1,56 @@
+html, body {    
+    font-family: 'Rubik', sans-serif;
+    background-color: #eaebed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+#shop {
+    width: 150px;
+    margin: 10px auto;
+}
+
+input {
+    background-color: #fcfcfc;
+    color: #2e424d;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    background-color: #2e424d;
+    color: #eaebed;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container-btn {
+    display: flex;
+    gap: 15px;
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+.container-btn * {
+    width: 70px;
+    height: 70px;
+    background-color: #98dad9;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
